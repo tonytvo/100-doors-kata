@@ -1,0 +1,22 @@
+= Retro
+
+- Maybe finished the implementation, but took a big step.
+- Algorithm was pretty simple, talked through it, but didn't write in plain english
+- learned that compute() updates the map!
+- Matt learned some java tricks (Immutable.of, stream max, compute(), etc)
+- Domain: missing the robot, need to move visit out of the hallway class
+- Tests don't reflect the domain right now
+- Used gitpod in the broswer, sharing worked well, but the browser eats some keyboard shortcuts
+- Replit is a smoother experience for setting up. 
+- gitpod uses vscode, more complete dev experience, can add extensions etc
+- Learned the vscode Test Explorer for running tests and jumping to results
+- Popup window over the code for the failing test was interesting
+- Had some methods to check is all doors were open or closed, but they aren't useful after the first visit, so they never got real implementations. Probably not worth keeping? Or add tests to make them fail. 
+- Lots of little things that can be easy to miss when doing TDD. E.g. did you rember to check what happens if a door doesn't exist, or did you accidently introduce the possibility of states that shouldn't exist? 
+  - Apply Mikado method
+  - Test, Commit, Revert could help also?
+  - I've (Matt) reverted stuff during refactoring at work. Nice to not get attached to the code. 
+  - Get less attached to changes, kata's and tdd help us get used 
+- If the robot visits a door that doesn't exist, should it open? 
+  - Tony: yes
+  - Matt: no, you can't open a door that doesn't exist :)
